@@ -1,0 +1,206 @@
+/* 头部样式 */
+#bg{
+    width:100%;
+    height:100%;
+    background:url(copy/img/map_bg.png) ;
+    background-size:cover;
+}
+header{
+    height:72px;
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+    -webkit-align-items:flex-end;
+}
+.hLeft{
+    width:740px;
+    height:3px;
+    background:#0088ff;
+    margin-bottom:19px;
+}
+.hCenter{
+    border-left:5px solid #0088ff;
+    border-right:5px solid #0088ff;
+
+}
+.hRight{
+    width:740px;
+    height:3px;
+    background:#0088ff;
+    margin-bottom:19px;
+}
+section{
+    padding:14px 10px 0px 10px;
+    box-sizing:border-box;
+    display:-webkit-flex;
+    width:100%;
+    
+}
+.sLeft{
+
+}
+.contain{
+    position:relative;
+    border:1px solid #21568c;
+    margin-bottom:15px;
+}
+.contain img:first-child{
+    position:absolute;
+    top:-1px;
+    left:-1px;
+}
+.contain img:nth-child(2){
+    position:absolute;
+    top:-1px;
+    right:-1px;
+}
+.contain img:nth-child(3){
+    position:absolute;
+    bottom:-1px;
+    right:-1px;
+}
+.contain img:nth-child(4){
+    position:absolute;
+    bottom:-1px;
+    left:-1px;
+}
+/* 实时统计部分 */
+.statis{
+    /* width:23.4%; */
+    /* height:100%; */
+    padding:25px 60px;
+    display:table;
+
+}
+.tit{
+    background:url(copy/img/info-title.png) no-repeat;
+    background-size:contain;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+    width:130px;
+    height:35px;
+    position:absolute;
+    top:-22px;
+    left:24%;
+    text-align:center;
+    line-height:35px;
+}
+.infobox{
+    display:table;
+    height:260px;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    -webkit-justify-content:space-between;
+}
+.info1{
+    width: 200px;
+    height:55px;
+    background:url(copy/img/info-text.png) no-repeat;
+    background-size:contain;
+    display:-webkit-flex;
+    /* -webkit-justify-content:space-around; */
+}
+.infobox .info1 img{
+    width:35px;
+    height:35px;
+    position: relative;
+    top:4px;
+    left:20px;
+}
+.infoWord{
+    margin-left:60px;
+    margin-top:10px;
+}
+.infoWord h1{
+    font-size:12px;
+    color:white;
+}
+.infoWord p{
+    font-size:12px;
+    color:#fdff44;
+    font-weight:bold;
+
+}
+/* 行业分类 */
+.industry{
+    /* width:23.4%; */
+    /* height:50px; */
+    display:table;
+    background:rgba(1,20,76,.7);
+    
+}
+#industryChar{
+    width:320px;
+    height:210px;
+}
+/* 车型分类 */
+.vehicleType{
+    display:table;
+    background:rgba(1,20,76,.7);
+
+}
+#vehicleChar{
+    width:320px;
+    height:190px;
+}
+
+
+/* 中间盒子 */
+.sCenter{
+    margin:0 15px 0 15px;
+
+}
+/* 地图 */
+.moveCar{
+    position: relative;
+    /* border:1px solid white; */
+}
+.moveCar h1{
+    color:white;
+}
+.number{
+    position: absolute;
+    top:30px;
+    display:-webkit-flex;
+    height:65px;
+    color:white;
+    font-size:48px;
+}
+.number span{ 
+    display:block;   
+    color:white;
+    width:45px;
+    height:65px;
+    background:#0189ff;
+    font-size:48px;
+    margin-right:5px
+}
+#map{
+    width:550px;
+    height:514px;
+}
+/* 充电 */
+.charging{
+    background:rgba(1,20,76,.7);
+    margin-top:15px;
+}
+#chargChar{
+    width:550px;
+    height:190px;
+}
+
+/* 本月行程管理 */
+#benyueChar{
+    width:330px;
+    height:250px;
+}
+/* 报警车辆 */
+#warnChar{
+    width:330px;
+    height:230px;
+}
+/* 电池报警车辆 */
+#dianchiChar{
+    width:330px;
+    height:230px;
+}

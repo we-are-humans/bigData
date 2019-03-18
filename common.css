@@ -1,0 +1,42 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+font-family:"微软雅黑"，Arial;
+font-size:12px;
+}
+
+
+ul,ol{
+list-style:none;
+}
+
+img{
+border:0;
+vertical-align:top;
+display:block;
+}
+
+a{
+text-decoration:none;
+}
+
+caption,th,td{
+font-weight:normal;
+text-align:left;
+vertical-align: top;
+}
+
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+
+body,html{
+/* height:100%; */
+/* width:100%; */
+box-sizing:border-box;
+}
